@@ -1,15 +1,16 @@
 {
-    "name": "cloud-mining-backend",
-    "version": "1.0.0",
-    "description": "Backend for cloud mining platform",
-    "main": "server.js",
-    "scripts": {
-      "start": "node server.js",
-      "dev": "nodemon server.js"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {},
-    "devDependencies": {}
+  "name": "cloud-mining-backend",
+  "version": "1.0.0",
+  "description": "Backend for cloud mining platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.0",
+    "jsonwebtoken": "^9.0.2"
   }
-  
+}
